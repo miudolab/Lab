@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 80
----
-
 # Guimarães' Lab GitHub
 
 This repository was created with the intention of organizing some of the
