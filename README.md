@@ -10,8 +10,10 @@ members.
 
 ## Table of Contents
 
-The repository is organized in three main folders, they are: \* 1.
-`Tutorials/` \* 2. `Code/` \* 3. `Data/`
+The repository is organized in three main folders, they are:
+* 1. `Tutorials/`
+* 2. `Code/`
+* 3. `Data/`
 
 ### Tutorials
 
@@ -44,5 +46,4 @@ bug fixes you can make a pull request.
 
 When working with the data set, make sure to **always** keep the raw
 data intact. Any procedures done to clean and process the data should
-generate a new file. That way, all users have access to the same raw
-data set.
+generate a new file. That way, all users have access to the same raw data set.
