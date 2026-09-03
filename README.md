@@ -64,13 +64,13 @@ intact**. Any procedures done to clean and process the data should generate a
 new file. That way, all users have access to the same raw data set.
 
 **All changes must be made on a branch — direct commits to `main` are
-disabled.** Only approved pull requests, reviewed by a maintainer/mod, can be
+disabled.** Only approved pull requests, reviewed by a maintainer, can be
 merged into `main`.
 
 1.  **Create a branch**
 
 ``` bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature-name
 ```
 
 2.  **Make your changes** and commit them
@@ -83,7 +83,7 @@ merged into `main`.
 3.  **Push the branch**
 
 ``` bash
-   git push origin feature/your-feature-name
+   git push origin feature-name
 ```
 
 4.  **Open a Pull Request** on GitHub, describing what you changed and why.
