@@ -1,12 +1,17 @@
 # Guimarães' Lab GitHub Repo
 
-This repository was created with the intention....
+This repository was created with the intention of organizing some of the
+resources used by multiple members of the Guimarães lab, collaborators,
+and other researchers that might be interested. These include tutorials
+targeted at learning different skills, code containing functions that
+are useful for multiple members, and data sets shared by multiple lab
+members.
 
-## Table of contents
-The repository is organized in three main folders, they are:
-* 1. `Tutorials/`
-* 2. `Code/`
-* 3. `Data/`
+
+## Table of Contents
+
+The repository is organized in three main folders, they are: \* 1.
+`Tutorials/` \* 2. `Code/` \* 3. `Data/`
 
 ### Tutorials
 
@@ -15,6 +20,7 @@ Inside `Tutorials/`, the following files are included:
 #### Coevolution in mutualistic networks *by Lucas P. Medeiros*
 
 This excellent tutorial was created by Lucas (2018), in which he went he introduces an R implementation of a theoretical approach to study coevolution in species-rich interactions. Currently, the tutorial is in a markdown format in his own [website](https://lucaspdmedeiros.com/coevo_mut_net_tutorial/tutorial.html).
+
 
 #### Maps in R with the SF package
 
@@ -29,3 +35,14 @@ Inside `Code/`, the following files are included:
 Inside `Data/`, raw data sets being used by multiple lab members are deposited. These files are not supposed to be updated regularly, download and use them on your own machine. 
 
 The data sets are:
+
+## How to use and best practices
+
+Clone this repository in your own computer. If you are adapting or
+modifying code, make sure to work on your own branch and if you have any
+bug fixes you can make a pull request.
+
+When working with the data set, make sure to **always** keep the raw
+data intact. Any procedures done to clean and process the data should
+generate a new file. That way, all users have access to the same raw
+data set.
