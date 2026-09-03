@@ -12,10 +12,12 @@ other researchers that might be interested. These include tutorials targeted at
 learning different skills, code containing functions that are useful for
 multiple members, and data sets shared by multiple lab members.
 
-If is your first time using Git, here are some good resources that you should check first:
+If is your first time using Git, here are some good resources that you should
+check first:
 
-- [Quick Start for RStudio](https://code.publichealthscotland.scot/git-guide/quick-start-rstudio.html)
-- [Let's Git started](https://happygitwithr.com/)
+-   [Quick Start for
+    RStudio](https://code.publichealthscotland.scot/git-guide/quick-start-rstudio.html)
+-   [Let's Git started](https://happygitwithr.com/)
 
 ## Table of Contents
 
@@ -66,3 +68,30 @@ make a pull request.
 When working with the data set, make sure to **always keep the raw data
 intact**. Any procedures done to clean and process the data should generate a
 new file. That way, all users have access to the same raw data set.
+
+**All changes must be made on a branch — direct commits to `main` are
+disabled.** Only approved pull requests, reviewed by a maintainer/mod, can be
+merged into `main`.
+
+1.  **Create a branch**
+
+``` bash
+   git checkout -b feature/your-feature-name
+```
+
+2.  **Make your changes** and commit them
+
+``` bash
+   git add .
+   git commit -m "Add your descriptive message here"
+```
+
+3.  **Push the branch**
+
+``` bash
+   git push origin feature/your-feature-name
+```
+
+4.  **Open a Pull Request** on GitHub, describing what you changed and why.
+5.  **Wait for approval** — a project maintainer must review and approve the PR
+    before it can be merged into `main`.
